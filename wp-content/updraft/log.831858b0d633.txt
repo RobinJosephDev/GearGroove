@@ -1,0 +1,737 @@
+0000.001 (0) Opened log file at time: Sat, 26 Apr 2025 17:54:28 +0000 on http://geargroove.local
+0000.005 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.5 WP: 6.8 PHP: 8.2.27 (cgi-fcgi, Windows NT DESKTOP-15SALQ5 10.0 build 26100 (Windows 11) AMD64) MySQL: 8.0.35 (max packet size=16777216) WPLANG: en_US Server: nginx/1.26.1 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 16.6M | 18M) multisite: N openssl: OpenSSL 3.0.15 3 Sep 2024 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.010 (0) Free space on disk containing Updraft's temporary directory: 32933.3 MB
+0000.017 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.057 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.071 (0) Set semaphore last lock (fd) time to 2025-04-26 17:54:28
+0000.073 (0) Semaphore lock (fd) complete
+0000.092 (0) Backup run: resumption=0, nonce=831858b0d633, file_nonce=831858b0d633 begun at=1745690068 (0s ago), job type=backup
+0000.098 (0) Scheduling a resumption (1) after 600 seconds (1745690668) in case this run gets aborted
+0000.156 (0) Checking if we have a zip executable available
+0000.163 (0) Creation of backups of directories: beginning
+0000.175 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0014.821 (0) Total entities for the zip file: 3012 directories, 15864 files (0 skipped as non-modified), 280.9 MB
+0014.837 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0015.131 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 100 files added (on-disk size: 588.8 KB)
+0015.196 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 200 files added (on-disk size: 588.8 KB)
+0015.252 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 300 files added (on-disk size: 588.8 KB)
+0015.310 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 400 files added (on-disk size: 588.8 KB)
+0015.380 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 500 files added (on-disk size: 588.8 KB)
+0015.443 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 600 files added (on-disk size: 588.8 KB)
+0015.508 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 700 files added (on-disk size: 588.8 KB)
+0015.568 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 800 files added (on-disk size: 588.8 KB)
+0015.626 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 900 files added (on-disk size: 588.8 KB)
+0015.653 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (26.5 MB, 15864 files batched, 934 (935) added so far); re-opening (prior size: 588.8 KB)
+0053.295 (0) A useful amount of data was added after this amount of zip processing: 38.7 s (normalised: 36.5 s, rate: 702.2 KB/s)
+0053.422 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 1000 files added (on-disk size: 6215.9 KB)
+0053.496 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 1100 files added (on-disk size: 6215.9 KB)
+0053.572 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (26.4 MB, 15864 files batched, 257 (1192) added so far); re-opening (prior size: 6215.9 KB)
+0067.749 (0) A useful amount of data was added after this amount of zip processing: 15.1 s (normalised: 14.3 s, rate: 1785.9 KB/s)
+0067.822 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 1200 files added (on-disk size: 11627.1 KB)
+0067.902 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 1300 files added (on-disk size: 11627.1 KB)
+0067.980 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 1400 files added (on-disk size: 11627.1 KB)
+0068.059 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 1500 files added (on-disk size: 11627.1 KB)
+0068.141 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 1600 files added (on-disk size: 11627.1 KB)
+0068.225 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 1700 files added (on-disk size: 11627.1 KB)
+0068.302 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 1800 files added (on-disk size: 11627.1 KB)
+0068.372 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 1900 files added (on-disk size: 11627.1 KB)
+0068.450 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 2000 files added (on-disk size: 11627.1 KB)
+0068.532 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 2100 files added (on-disk size: 11627.1 KB)
+0068.604 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (14.6 MB, 15864 files batched, 1001 (2193) added so far); re-opening (prior size: 11627.1 KB)
+0106.339 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 2200 files added (on-disk size: 16939.5 KB)
+0106.440 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 2300 files added (on-disk size: 16939.5 KB)
+0106.546 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 2400 files added (on-disk size: 16939.5 KB)
+0106.971 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 2500 files added (on-disk size: 16939.5 KB)
+0107.068 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 2600 files added (on-disk size: 16939.5 KB)
+0107.167 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 2700 files added (on-disk size: 16939.5 KB)
+0107.280 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 2800 files added (on-disk size: 16939.5 KB)
+0107.389 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 2900 files added (on-disk size: 16939.5 KB)
+0107.499 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 3000 files added (on-disk size: 16939.5 KB)
+0107.603 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 3100 files added (on-disk size: 16939.5 KB)
+0107.690 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (20.6 MB, 15864 files batched, 1001 (3194) added so far); re-opening (prior size: 16939.5 KB)
+0162.794 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 3200 files added (on-disk size: 23012.7 KB)
+0162.872 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 3300 files added (on-disk size: 23012.7 KB)
+0162.949 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 3400 files added (on-disk size: 23012.7 KB)
+0163.036 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 3500 files added (on-disk size: 23012.7 KB)
+0163.138 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 3600 files added (on-disk size: 23012.7 KB)
+0163.218 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 3700 files added (on-disk size: 23012.7 KB)
+0163.304 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 3800 files added (on-disk size: 23012.7 KB)
+0163.388 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 3900 files added (on-disk size: 23012.7 KB)
+0163.474 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 4000 files added (on-disk size: 23012.7 KB)
+0163.555 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 4100 files added (on-disk size: 23012.7 KB)
+0163.628 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (17 MB, 15864 files batched, 1001 (4195) added so far); re-opening (prior size: 23012.7 KB)
+0196.617 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 4200 files added (on-disk size: 36956.4 KB)
+0196.689 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 4300 files added (on-disk size: 36956.4 KB)
+0196.768 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 4400 files added (on-disk size: 36956.4 KB)
+0196.855 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 4500 files added (on-disk size: 36956.4 KB)
+0196.939 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 4600 files added (on-disk size: 36956.4 KB)
+0197.018 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 4700 files added (on-disk size: 36956.4 KB)
+0197.105 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 4800 files added (on-disk size: 36956.4 KB)
+0197.187 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 4900 files added (on-disk size: 36956.4 KB)
+0197.268 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 5000 files added (on-disk size: 36956.4 KB)
+0197.343 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 5100 files added (on-disk size: 36956.4 KB)
+0197.450 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (24.9 MB, 15864 files batched, 1001 (5196) added so far); re-opening (prior size: 36956.4 KB)
+0251.311 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 5200 files added (on-disk size: 44739.2 KB)
+0251.389 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 5300 files added (on-disk size: 44739.2 KB)
+0251.476 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 5400 files added (on-disk size: 44739.2 KB)
+0251.559 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 5500 files added (on-disk size: 44739.2 KB)
+0251.641 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 5600 files added (on-disk size: 44739.2 KB)
+0251.727 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 5700 files added (on-disk size: 44739.2 KB)
+0251.818 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 5800 files added (on-disk size: 44739.2 KB)
+0251.910 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 5900 files added (on-disk size: 44739.2 KB)
+0251.924 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.1 MB, 15864 files batched, 718 (5914) added so far); re-opening (prior size: 44739.2 KB)
+0284.413 (0) A useful amount of data was added after this amount of zip processing: 33.8 s (normalised: 33.7 s, rate: 759.3 KB/s)
+0284.418 (0) Performance is good - will increase the amount of data we attempt to batch (time=33.78343296051, normalised_time=33.713605681592, max_time=284.41452407837, data points known=1, old_max_bytes=26214400, new_max_bytes=132689861)
+0284.605 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 6000 files added (on-disk size: 54442.8 KB)
+0284.685 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 6100 files added (on-disk size: 54442.8 KB)
+0284.761 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 6200 files added (on-disk size: 54442.8 KB)
+0284.828 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 6300 files added (on-disk size: 54442.8 KB)
+0284.910 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 6400 files added (on-disk size: 54442.8 KB)
+0285.010 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 6500 files added (on-disk size: 54442.8 KB)
+0285.099 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 6600 files added (on-disk size: 54442.8 KB)
+0285.191 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 6700 files added (on-disk size: 54442.8 KB)
+0285.273 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 6800 files added (on-disk size: 54442.8 KB)
+0285.349 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 6900 files added (on-disk size: 54442.8 KB)
+0285.364 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (22.4 MB, 15864 files batched, 1001 (6915) added so far); re-opening (prior size: 54442.8 KB)
+0319.267 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 7000 files added (on-disk size: 61103.5 KB)
+0319.347 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 7100 files added (on-disk size: 61103.5 KB)
+0319.419 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 7200 files added (on-disk size: 61103.5 KB)
+0319.501 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 7300 files added (on-disk size: 61103.5 KB)
+0319.584 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 7400 files added (on-disk size: 61103.5 KB)
+0319.660 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 7500 files added (on-disk size: 61103.5 KB)
+0319.747 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 7600 files added (on-disk size: 61103.5 KB)
+0319.828 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 7700 files added (on-disk size: 61103.5 KB)
+0319.910 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 7800 files added (on-disk size: 61103.5 KB)
+0319.982 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 7900 files added (on-disk size: 61103.5 KB)
+0319.997 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (11.2 MB, 15864 files batched, 1001 (7916) added so far); re-opening (prior size: 61103.5 KB)
+0348.333 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 8000 files added (on-disk size: 65359.8 KB)
+0348.412 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 8100 files added (on-disk size: 65359.8 KB)
+0348.483 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 8200 files added (on-disk size: 65359.8 KB)
+0348.561 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 8300 files added (on-disk size: 65359.8 KB)
+0348.637 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 8400 files added (on-disk size: 65359.8 KB)
+0348.716 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 8500 files added (on-disk size: 65359.8 KB)
+0348.797 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 8600 files added (on-disk size: 65359.8 KB)
+0348.869 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 8700 files added (on-disk size: 65359.8 KB)
+0348.944 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 8800 files added (on-disk size: 65359.8 KB)
+0349.019 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 8900 files added (on-disk size: 65359.8 KB)
+0349.042 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (8.1 MB, 15864 files batched, 1001 (8917) added so far); re-opening (prior size: 65359.8 KB)
+0366.325 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 9000 files added (on-disk size: 68065.9 KB)
+0366.401 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 9100 files added (on-disk size: 68065.9 KB)
+0366.475 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 9200 files added (on-disk size: 68065.9 KB)
+0366.550 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 9300 files added (on-disk size: 68065.9 KB)
+0366.625 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 9400 files added (on-disk size: 68065.9 KB)
+0366.702 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 9500 files added (on-disk size: 68065.9 KB)
+0366.787 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 9600 files added (on-disk size: 68065.9 KB)
+0366.876 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 9700 files added (on-disk size: 68065.9 KB)
+0366.948 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 9800 files added (on-disk size: 68065.9 KB)
+0367.036 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 9900 files added (on-disk size: 68065.9 KB)
+0367.055 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (16.5 MB, 15864 files batched, 1001 (9918) added so far); re-opening (prior size: 68065.9 KB)
+0421.432 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 10000 files added (on-disk size: 76180.5 KB)
+0421.501 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 10100 files added (on-disk size: 76180.5 KB)
+0421.555 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 10200 files added (on-disk size: 76180.5 KB)
+0421.617 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 10300 files added (on-disk size: 76180.5 KB)
+0421.675 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 10400 files added (on-disk size: 76180.5 KB)
+0421.737 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 10500 files added (on-disk size: 76180.5 KB)
+0421.808 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 10600 files added (on-disk size: 76180.5 KB)
+0421.864 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 10700 files added (on-disk size: 76180.5 KB)
+0421.921 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 10800 files added (on-disk size: 76180.5 KB)
+0421.977 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 10900 files added (on-disk size: 76180.5 KB)
+0421.992 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (5.6 MB, 15864 files batched, 1001 (10919) added so far); re-opening (prior size: 76180.5 KB)
+0476.539 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 11000 files added (on-disk size: 77910.6 KB)
+0476.638 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 11100 files added (on-disk size: 77910.6 KB)
+0476.748 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 11200 files added (on-disk size: 77910.6 KB)
+0476.851 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 11300 files added (on-disk size: 77910.6 KB)
+0476.990 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 11400 files added (on-disk size: 77910.6 KB)
+0477.174 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 11500 files added (on-disk size: 77910.6 KB)
+0477.322 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 11600 files added (on-disk size: 77910.6 KB)
+0477.516 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 11700 files added (on-disk size: 77910.6 KB)
+0477.695 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 11800 files added (on-disk size: 77910.6 KB)
+0477.904 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 11900 files added (on-disk size: 77910.6 KB)
+0478.096 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (5.1 MB, 15864 files batched, 1001 (11920) added so far); re-opening (prior size: 77910.6 KB)
+0523.624 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 12000 files added (on-disk size: 79537.9 KB)
+0523.686 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 12100 files added (on-disk size: 79537.9 KB)
+0523.747 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 12200 files added (on-disk size: 79537.9 KB)
+0523.809 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 12300 files added (on-disk size: 79537.9 KB)
+0523.869 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 12400 files added (on-disk size: 79537.9 KB)
+0523.927 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 12500 files added (on-disk size: 79537.9 KB)
+0523.989 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 12600 files added (on-disk size: 79537.9 KB)
+0524.050 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 12700 files added (on-disk size: 79537.9 KB)
+0524.113 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 12800 files added (on-disk size: 79537.9 KB)
+0524.174 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 12900 files added (on-disk size: 79537.9 KB)
+0524.190 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (21.5 MB, 15864 files batched, 1001 (12921) added so far); re-opening (prior size: 79537.9 KB)
+0555.545 (0) The scheduled resumption is within 45 seconds - will reschedule
+0555.553 (0) Rescheduling resumption 1: moving to 645 seconds from now (1745691268)
+0555.564 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 600 + 45 = 645
+0555.799 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 13000 files added (on-disk size: 86743.6 KB)
+0555.864 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 13100 files added (on-disk size: 86743.6 KB)
+0555.926 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 13200 files added (on-disk size: 86743.6 KB)
+0555.985 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 13300 files added (on-disk size: 86743.6 KB)
+0556.047 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 13400 files added (on-disk size: 86743.6 KB)
+0556.108 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 13500 files added (on-disk size: 86743.6 KB)
+0556.195 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 13600 files added (on-disk size: 86743.6 KB)
+0556.277 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 13700 files added (on-disk size: 86743.6 KB)
+0556.358 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 13800 files added (on-disk size: 86743.6 KB)
+0556.432 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 13900 files added (on-disk size: 86743.6 KB)
+0556.453 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (16.7 MB, 15864 files batched, 1001 (13922) added so far); re-opening (prior size: 86743.6 KB)
+0579.612 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 14000 files added (on-disk size: 91572.3 KB)
+0579.673 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 14100 files added (on-disk size: 91572.3 KB)
+0579.735 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 14200 files added (on-disk size: 91572.3 KB)
+0579.798 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 14300 files added (on-disk size: 91572.3 KB)
+0579.859 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 14400 files added (on-disk size: 91572.3 KB)
+0579.916 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 14500 files added (on-disk size: 91572.3 KB)
+0579.976 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 14600 files added (on-disk size: 91572.3 KB)
+0580.042 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 14700 files added (on-disk size: 91572.3 KB)
+0580.100 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 14800 files added (on-disk size: 91572.3 KB)
+0580.167 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 14900 files added (on-disk size: 91572.3 KB)
+0580.183 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (13.4 MB, 15864 files batched, 1001 (14923) added so far); re-opening (prior size: 91572.3 KB)
+0611.264 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 15000 files added (on-disk size: 98528.4 KB)
+0611.325 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 15100 files added (on-disk size: 98528.4 KB)
+0611.391 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 15200 files added (on-disk size: 98528.4 KB)
+0611.453 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 15300 files added (on-disk size: 98528.4 KB)
+0611.520 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 15400 files added (on-disk size: 98528.4 KB)
+0611.582 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 15500 files added (on-disk size: 98528.4 KB)
+0611.644 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 15600 files added (on-disk size: 98528.4 KB)
+0611.705 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 15700 files added (on-disk size: 98528.4 KB)
+0611.770 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.tmp: 15800 files added (on-disk size: 98528.4 KB)
+0647.517 (0) The time we have been running (647.5) is approaching the resumption interval (645) - increasing resumption interval to 678
+0648.002 (0) Creating zip file manifest (backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.list-temp.tmp)
+0648.112 (0) Successfully created zip file manifest (size: 1493288)
+0649.426 (0) Created plugins zip (0) - 100305.6 KB in 649.2 s (154.5 KB/s) (sha1: aca20b4bf5784e484ce5365af9e1dc9b01ac70aa, sha256: d841c026529ef6adf1bac4677d2677324586dd2923c672fb1cc0ba6062b822da)
+0649.459 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0649.461 (0) No remote despatch: user chose no remote backup service
+0649.464 (0) Recording as successfully uploaded: backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip
+0649.469 (0) Deleting zip manifest (backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip.list.tmp)
+0649.479 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0649.488 (0) Number of backup sets in history: 2; groups (db): 1
+0649.490 (0) Examining (for databases) backup set with group_id=0, nonce=015ad5abaa59, datestamp=1745566020 (Apr 25 2025 07:27:00)
+0649.493 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0649.495 (0) Examining (for databases) backup set with group_id=0, nonce=c4e9baf2ac9d, datestamp=1745514786 (Apr 24 2025 17:13:06)
+0649.495 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0649.495 (0) Number of backup sets in history: 2; groups (files): 1
+0649.497 (0) Examining (for files) backup set with nonce=015ad5abaa59, datestamp=1745566020 (Apr 25 2025 07:27:00)
+0649.497 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0649.499 (0) Examining (for files) backup set with nonce=c4e9baf2ac9d, datestamp=1745514786 (Apr 24 2025 17:13:06)
+0649.499 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0649.499 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0649.512 (0) Beginning creation of dump of themes (split every: 400 MB)
+0650.893 (0) Total entities for the zip file: 274 directories, 1863 files (0 skipped as non-modified), 22.9 MB
+0650.964 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0651.044 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0651.118 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0651.188 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0651.271 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0651.337 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0651.399 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0651.491 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0651.568 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0651.629 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (8.8 MB, 977 (977) files added so far); re-opening (prior size: 0 KB)
+0672.052 (0) The time we have been running (672) is approaching the resumption interval (678) - increasing resumption interval to 703
+0672.097 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-themes.zip.tmp: 1000 files added (on-disk size: 3348.6 KB)
+0672.149 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-themes.zip.tmp: 1100 files added (on-disk size: 3348.6 KB)
+0672.201 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-themes.zip.tmp: 1200 files added (on-disk size: 3348.6 KB)
+0672.255 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-themes.zip.tmp: 1300 files added (on-disk size: 3348.6 KB)
+0672.306 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-themes.zip.tmp: 1400 files added (on-disk size: 3348.6 KB)
+0672.361 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-themes.zip.tmp: 1500 files added (on-disk size: 3348.6 KB)
+0672.415 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-themes.zip.tmp: 1600 files added (on-disk size: 3348.6 KB)
+0672.466 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-themes.zip.tmp: 1700 files added (on-disk size: 3348.6 KB)
+0672.517 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-themes.zip.tmp: 1800 files added (on-disk size: 3348.6 KB)
+0695.058 (0) The time we have been running (695) is approaching the resumption interval (703) - increasing resumption interval to 726
+0695.093 (0) Creating zip file manifest (backup_2025-04-26-2324_GearGroove_831858b0d633-themes.zip.list-temp.tmp)
+0695.109 (0) Successfully created zip file manifest (size: 140578)
+0695.325 (0) Created themes zip (0) - 16536.5 KB in 45.8 s (361 KB/s) (sha1: 2414c0b94992800b749ec58a8b751e584a0e8014, sha256: 766770da9dff745ba1dc95a53fe1ba7737c76d59e687ac705d406ed84f4b6478)
+0695.336 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0695.339 (0) No remote despatch: user chose no remote backup service
+0695.342 (0) Recording as successfully uploaded: backup_2025-04-26-2324_GearGroove_831858b0d633-themes.zip
+0695.347 (0) Deleting zip manifest (backup_2025-04-26-2324_GearGroove_831858b0d633-themes.zip.list.tmp)
+0695.353 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0695.356 (0) Number of backup sets in history: 2; groups (db): 1
+0695.359 (0) Examining (for databases) backup set with group_id=0, nonce=015ad5abaa59, datestamp=1745566020 (Apr 25 2025 07:27:00)
+0695.361 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0695.363 (0) Examining (for databases) backup set with group_id=0, nonce=c4e9baf2ac9d, datestamp=1745514786 (Apr 24 2025 17:13:06)
+0695.363 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0695.363 (0) Number of backup sets in history: 2; groups (files): 1
+0695.366 (0) Examining (for files) backup set with nonce=015ad5abaa59, datestamp=1745566020 (Apr 25 2025 07:27:00)
+0695.366 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0695.368 (0) Examining (for files) backup set with nonce=c4e9baf2ac9d, datestamp=1745514786 (Apr 24 2025 17:13:06)
+0695.368 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0695.369 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0695.386 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0695.388 (0) Looking for candidates to backup in: C:\Users\Dell Inspiron 5559\Local Sites\geargroove\app\public/wp-content/uploads
+0695.391 (0) finding files: 2025: adding to list (1)
+0695.394 (0) finding files: ao_ccss: adding to list (2)
+0695.397 (0) finding files: ast-shipping-providers: adding to list (3)
+0695.400 (0) finding files: blocksy: adding to list (4)
+0695.402 (0) finding files: elementor: adding to list (5)
+0695.404 (0) finding files: essential-addons-elementor: adding to list (6)
+0695.407 (0) finding files: fonts: adding to list (7)
+0695.409 (0) finding files: premium-addons-elementor: adding to list (8)
+0695.411 (0) finding files: print-invoices-packing-slip-labels-for-woocommerce: adding to list (9)
+0695.414 (0) finding files: print-invoices-packing-slip-labels-for-woocommerce-lock: adding to list (10)
+0695.417 (0) finding files: wc-logs: adding to list (11)
+0695.419 (0) finding files: woocommerce-placeholder-100x100.png: adding to list (12)
+0695.421 (0) finding files: woocommerce-placeholder-1024x1024.png: adding to list (13)
+0695.424 (0) finding files: woocommerce-placeholder-150x150.png: adding to list (14)
+0695.426 (0) finding files: woocommerce-placeholder-300x300.png: adding to list (15)
+0695.429 (0) finding files: woocommerce-placeholder-500x500.png: adding to list (16)
+0695.431 (0) finding files: woocommerce-placeholder-600x600.png: adding to list (17)
+0695.433 (0) finding files: woocommerce-placeholder-768x768.png: adding to list (18)
+0695.436 (0) finding files: woocommerce-placeholder.png: adding to list (19)
+0695.438 (0) finding files: woocommerce_uploads: adding to list (20)
+0695.440 (0) finding files: wpforms: adding to list (21)
+0695.442 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0696.821 (0) Total entities for the zip file: 24 directories, 1407 files (0 skipped as non-modified), 23 MB
+0696.896 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0696.963 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0697.051 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0697.130 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0697.200 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0697.271 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-uploads.zip.tmp: 600 files added (on-disk size: 0 KB)
+0697.350 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-uploads.zip.tmp: 700 files added (on-disk size: 0 KB)
+0697.426 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-uploads.zip.tmp: 800 files added (on-disk size: 0 KB)
+0697.490 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-uploads.zip.tmp: 900 files added (on-disk size: 0 KB)
+0697.558 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-uploads.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0697.561 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (10.2 MB, 1407 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0701.501 (0) The time we have been running (701.5) is approaching the resumption interval (726) - increasing resumption interval to 732
+0701.571 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-uploads.zip.tmp: 1100 files added (on-disk size: 10645.6 KB)
+0701.628 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-uploads.zip.tmp: 1200 files added (on-disk size: 10645.6 KB)
+0701.681 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-uploads.zip.tmp: 1300 files added (on-disk size: 10645.6 KB)
+0701.735 (0) Zip: backup_2025-04-26-2324_GearGroove_831858b0d633-uploads.zip.tmp: 1400 files added (on-disk size: 10645.6 KB)
+0704.147 (0) The time we have been running (704.1) is approaching the resumption interval (732) - increasing resumption interval to 735
+0704.178 (0) Creating zip file manifest (backup_2025-04-26-2324_GearGroove_831858b0d633-uploads.zip.list-temp.tmp)
+0704.190 (0) Successfully created zip file manifest (size: 94991)
+0704.397 (0) Created uploads zip (0) - 15479.1 KB in 8.9 s (1730.1 KB/s) (sha1: 8b73ee9c9c42e25df0053bcecb8781b077769e58, sha256: e84a5213eace14ba60170b95336b40d7f03fafea9c34e7d2dba2c9dd194f0e00)
+0704.408 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0704.411 (0) No remote despatch: user chose no remote backup service
+0704.414 (0) Recording as successfully uploaded: backup_2025-04-26-2324_GearGroove_831858b0d633-uploads.zip
+0704.420 (0) Deleting zip manifest (backup_2025-04-26-2324_GearGroove_831858b0d633-uploads.zip.list.tmp)
+0704.426 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0704.429 (0) Number of backup sets in history: 2; groups (db): 1
+0704.432 (0) Examining (for databases) backup set with group_id=0, nonce=015ad5abaa59, datestamp=1745566020 (Apr 25 2025 07:27:00)
+0704.435 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0704.437 (0) Examining (for databases) backup set with group_id=0, nonce=c4e9baf2ac9d, datestamp=1745514786 (Apr 24 2025 17:13:06)
+0704.437 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0704.437 (0) Number of backup sets in history: 2; groups (files): 1
+0704.439 (0) Examining (for files) backup set with nonce=015ad5abaa59, datestamp=1745566020 (Apr 25 2025 07:27:00)
+0704.439 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0704.442 (0) Examining (for files) backup set with nonce=c4e9baf2ac9d, datestamp=1745514786 (Apr 24 2025 17:13:06)
+0704.442 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0704.442 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0704.453 (0) No backup of mu-plugins: excluded by user's options
+0704.458 (0) Beginning backup of other directories found in the content directory (index: 0)
+0704.461 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0704.463 (0) Looking for candidates to backup in: C:\Users\Dell Inspiron 5559\Local Sites\geargroove\app\public/wp-content
+0704.466 (0) finding files: autoptimize_404_handler.php: adding to list (1)
+0704.468 (0) finding files: cache: skipping: excluded by options
+0704.470 (0) finding files: index.php: adding to list (2)
+0704.472 (0) finding files: jetpack-waf: adding to list (3)
+0704.477 (0) finding files: plugins: skipping: this is the plugins directory
+0704.479 (0) finding files: themes: skipping: this is the themes directory
+0704.481 (0) finding files: updraft: skipping: this is the updraft directory
+0704.483 (0) finding files: upgrade: skipping: excluded by options
+0704.486 (0) finding files: uploads: skipping: this is the uploads directory
+0704.503 (0) Total entities for the zip file: 2 directories, 7 files (0 skipped as non-modified), 0 MB
+0704.717 (0) Creating zip file manifest (backup_2025-04-26-2324_GearGroove_831858b0d633-others.zip.list-temp.tmp)
+0704.720 (0) Successfully created zip file manifest (size: 277)
+0704.734 (0) Created others zip (0) - 2.6 KB in 0.2 s (10.9 KB/s) (sha1: e98f26612e70fac94e54258a7ba2b1d7b122e44c, sha256: cc6256a1078ce696b347785257e6ca6e83e6d3ba10960cdac4b8cec759afd188)
+0704.743 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0704.745 (0) No remote despatch: user chose no remote backup service
+0704.747 (0) Recording as successfully uploaded: backup_2025-04-26-2324_GearGroove_831858b0d633-others.zip
+0704.752 (0) Deleting zip manifest (backup_2025-04-26-2324_GearGroove_831858b0d633-others.zip.list.tmp)
+0704.758 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0704.761 (0) Number of backup sets in history: 2; groups (db): 1
+0704.763 (0) Examining (for databases) backup set with group_id=0, nonce=015ad5abaa59, datestamp=1745566020 (Apr 25 2025 07:27:00)
+0704.763 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0704.766 (0) Examining (for databases) backup set with group_id=0, nonce=c4e9baf2ac9d, datestamp=1745514786 (Apr 24 2025 17:13:06)
+0704.766 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0704.766 (0) Number of backup sets in history: 2; groups (files): 1
+0704.768 (0) Examining (for files) backup set with nonce=015ad5abaa59, datestamp=1745566020 (Apr 25 2025 07:27:00)
+0704.768 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0704.770 (0) Examining (for files) backup set with nonce=c4e9baf2ac9d, datestamp=1745514786 (Apr 24 2025 17:13:06)
+0704.770 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0704.770 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0704.789 (0) Saving backup status to database (elements: 8)
+0704.795 (0) Beginning creation of database dump (WordPress DB)
+0704.797 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0704.802 (0) Testing potential mysqldump binary: C:\Program Files\MySQL\MySQL Workbench 8.0\mysqldump.exe
+0709.113 (0) Binary mysqldump: error (code: 2)
+0709.119 (0) Testing potential mysqldump binary: C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqldump.exe
+0713.388 (0) Binary mysqldump: error (code: 2)
+0713.457 (0) Table wp_options: Total expected rows (via COUNT): 963
+0713.589 (0) Table wp_options: Rows added in this batch (next record: 5007): 959 (uncompressed bytes in this segment=3128512) in 0.16 seconds
+0713.606 (0) The time we have been running (713.6) is approaching the resumption interval (735) - increasing resumption interval to 744
+0713.618 (0) Table wp_options: finishing file(s) (2, 460.9 KB)
+0713.633 (0) Table wp_users: Total expected rows (via COUNT): 2
+0713.635 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0713.641 (0) Table wp_users: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1658) in 0.01 seconds
+0713.656 (0) Table wp_users: finishing file(s) (2, 0.7 KB)
+0713.681 (0) Table wp_usermeta: Total expected rows (via COUNT): 125
+0713.683 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0713.690 (0) Table wp_usermeta: Rows added in this batch (next record: 128): 125 (uncompressed bytes in this segment=8111) in 0.03 seconds
+0713.709 (0) Table wp_usermeta: finishing file(s) (2, 3.2 KB)
+0713.733 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 265
+0713.736 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0713.755 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 456): 265 (uncompressed bytes in this segment=97078) in 0.04 seconds
+0713.775 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 6.7 KB)
+0713.791 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0713.797 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=622) in 0.01 seconds
+0713.813 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0713.828 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 9
+0713.830 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0713.836 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=967) in 0.01 seconds
+0713.852 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.5 KB)
+0713.869 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 779
+0713.889 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 779): 779 (uncompressed bytes in this segment=69132) in 0.03 seconds
+0713.904 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 6.4 KB)
+0713.944 (0) Table wp_commentmeta: Total expected rows (via COUNT): 2
+0713.946 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0713.951 (0) Table wp_commentmeta: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=780) in 0.04 seconds
+0713.967 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0713.987 (0) Table wp_comments: Total expected rows (via COUNT): 10
+0713.989 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0713.993 (0) Table wp_comments: Rows added in this batch (next record: 10): 10 (uncompressed bytes in this segment=4353) in 0.01 seconds
+0714.011 (0) The time we have been running (714) is approaching the resumption interval (744) - increasing resumption interval to 745
+0714.016 (0) Table wp_comments: finishing file(s) (2, 1.4 KB)
+0714.045 (0) Table wp_links: Total expected rows (via COUNT): 0
+0714.050 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1298) in 0.03 seconds
+0714.064 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0714.428 (0) Table wp_postmeta: Total expected rows (approximate): 7055
+0714.865 (0) Table wp_postmeta: Rows added in this batch (next record: 7628): 6318 (uncompressed bytes in this segment=14343367) in 0.79 seconds
+0714.888 (0) Table wp_postmeta: finishing file(s) (2, 933 KB)
+0715.036 (0) Table wp_posts: Total expected rows (via COUNT): 932
+0715.139 (0) Table wp_posts: Rows added in this batch (next record: 963): 932 (uncompressed bytes in this segment=3955546) in 0.24 seconds
+0715.158 (0) The time we have been running (715.1) is approaching the resumption interval (745) - increasing resumption interval to 746
+0715.172 (0) Table wp_posts: finishing file(s) (2, 96.3 KB)
+0715.186 (0) Table wp_term_relationships: Total expected rows (approximate): 49
+0715.193 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 49 (uncompressed bytes in this segment=1384) in 0.01 seconds
+0715.207 (0) Table wp_term_relationships: finishing file(s) (2, 0.5 KB)
+0715.226 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 31
+0715.228 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0715.234 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 32): 31 (uncompressed bytes in this segment=2180) in 0.02 seconds
+0715.252 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.7 KB)
+0715.270 (0) Table wp_termmeta: Total expected rows (via COUNT): 12
+0715.272 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0715.279 (0) Table wp_termmeta: Rows added in this batch (next record: 12): 12 (uncompressed bytes in this segment=1173) in 0.02 seconds
+0715.299 (0) Table wp_termmeta: finishing file(s) (2, 0.5 KB)
+0715.312 (0) Table wp_terms: Total expected rows (via COUNT): 31
+0715.315 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0715.322 (0) Table wp_terms: Rows added in this batch (next record: 32): 31 (uncompressed bytes in this segment=1746) in 0.01 seconds
+0715.336 (0) Table wp_terms: finishing file(s) (2, 0.8 KB)
+0715.356 (0) Table wp_wc_category_lookup: Total expected rows (approximate): 4
+0715.374 (0) Table wp_wc_category_lookup: Rows added in this batch (next record: 1000): 4 (uncompressed bytes in this segment=614) in 0.03 seconds
+0715.389 (0) Table wp_wc_category_lookup: finishing file(s) (2, 0.4 KB)
+0715.409 (0) Table wp_wc_product_meta_lookup: Total expected rows (via COUNT): 18
+0715.412 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0715.419 (0) Table wp_wc_product_meta_lookup: Rows added in this batch (next record: 274): 18 (uncompressed bytes in this segment=3249) in 0.02 seconds
+0715.433 (0) Table wp_wc_product_meta_lookup: finishing file(s) (2, 0.8 KB)
+0715.448 (0) Table wp_wc_reserved_stock: Total expected rows (approximate): 0
+0715.463 (0) Table wp_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=657) in 0.02 seconds
+0715.477 (0) Table wp_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0715.490 (0) Table wp_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0715.492 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0715.497 (0) Table wp_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=808) in 0.01 seconds
+0715.511 (0) Table wp_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0715.542 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (via COUNT): 244
+0715.544 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0715.551 (0) Table wp_woocommerce_order_itemmeta: Rows added in this batch (next record: 296): 244 (uncompressed bytes in this segment=9828) in 0.03 seconds
+0715.567 (0) Table wp_woocommerce_order_itemmeta: finishing file(s) (2, 2.1 KB)
+0715.597 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0715.602 (0) Table wp_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=790) in 0.02 seconds
+0715.618 (0) Table wp_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0715.644 (0) Table wp_e_events: Total expected rows (via COUNT): 2
+0715.646 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0715.651 (0) Table wp_e_events: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=972) in 0.02 seconds
+0715.667 (0) Table wp_e_events: finishing file(s) (2, 0.5 KB)
+0715.689 (0) Table wp_wc_admin_note_actions: Total expected rows (via COUNT): 94
+0715.691 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0715.700 (0) Table wp_wc_admin_note_actions: Rows added in this batch (next record: 1925): 94 (uncompressed bytes in this segment=18311) in 0.02 seconds
+0715.715 (0) Table wp_wc_admin_note_actions: finishing file(s) (2, 3 KB)
+0715.737 (0) Table wp_wc_admin_notes: Total expected rows (via COUNT): 66
+0715.741 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0715.749 (0) Table wp_wc_admin_notes: Rows added in this batch (next record: 69): 66 (uncompressed bytes in this segment=32985) in 0.03 seconds
+0715.770 (0) Table wp_wc_admin_notes: finishing file(s) (2, 7 KB)
+0716.461 (0) Table wp_wc_customer_lookup: Total expected rows (via COUNT): 2
+0716.465 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0716.477 (0) Table wp_wc_customer_lookup: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1600) in 0.10 seconds
+0716.547 (0) The time we have been running (716.5) is approaching the resumption interval (746) - increasing resumption interval to 747
+0716.588 (0) Table wp_wc_customer_lookup: finishing file(s) (2, 0.6 KB)
+0716.630 (0) Table wp_wc_download_log: Total expected rows (via COUNT): 0
+0716.636 (0) Table wp_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=735) in 0.04 seconds
+0716.652 (0) Table wp_wc_download_log: finishing file(s) (2, 0.4 KB)
+0716.673 (0) Table wp_wc_order_addresses: Total expected rows (via COUNT): 4
+0716.677 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0716.684 (0) Table wp_wc_order_addresses: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=1935) in 0.02 seconds
+0716.700 (0) Table wp_wc_order_addresses: finishing file(s) (2, 0.7 KB)
+0716.717 (0) Table wp_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0716.739 (0) Table wp_wc_order_coupon_lookup: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=797) in 0.03 seconds
+0716.758 (0) Table wp_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0716.779 (0) Table wp_wc_order_operational_data: Total expected rows (via COUNT): 3
+0716.782 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0716.790 (0) Table wp_wc_order_operational_data: Rows added in this batch (next record: 9): 3 (uncompressed bytes in this segment=2105) in 0.02 seconds
+0716.812 (0) Table wp_wc_order_operational_data: finishing file(s) (2, 0.8 KB)
+0716.853 (0) Table wp_wc_order_product_lookup: Total expected rows (via COUNT): 3
+0716.855 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0716.860 (0) Table wp_wc_order_product_lookup: Rows added in this batch (next record: 31): 3 (uncompressed bytes in this segment=1515) in 0.03 seconds
+0716.880 (0) Table wp_wc_order_product_lookup: finishing file(s) (2, 0.6 KB)
+0716.918 (0) Table wp_wc_order_stats: Total expected rows (via COUNT): 2
+0716.920 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0716.924 (0) Table wp_wc_order_stats: Rows added in this batch (next record: 428): 2 (uncompressed bytes in this segment=1559) in 0.03 seconds
+0716.949 (0) Table wp_wc_order_stats: finishing file(s) (2, 0.6 KB)
+0716.966 (0) Table wp_wc_order_tax_lookup: Total expected rows (approximate): 0
+0716.990 (0) Table wp_wc_order_tax_lookup: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=892) in 0.03 seconds
+0717.013 (0) The time we have been running (717) is approaching the resumption interval (747) - increasing resumption interval to 748
+0717.019 (0) Table wp_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0717.037 (0) Table wp_wc_orders: Total expected rows (via COUNT): 3
+0717.040 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0717.047 (0) Table wp_wc_orders: Rows added in this batch (next record: 428): 3 (uncompressed bytes in this segment=2390) in 0.02 seconds
+0717.069 (0) Table wp_wc_orders: finishing file(s) (2, 0.9 KB)
+0717.086 (0) Table wp_wc_orders_meta: Total expected rows (via COUNT): 33
+0717.089 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0717.096 (0) Table wp_wc_orders_meta: Rows added in this batch (next record: 36): 33 (uncompressed bytes in this segment=3295) in 0.02 seconds
+0717.114 (0) Table wp_wc_orders_meta: finishing file(s) (2, 1.4 KB)
+0717.130 (0) Table wp_wc_product_attributes_lookup: Total expected rows (approximate): 0
+0717.151 (0) Table wp_wc_product_attributes_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=850) in 0.03 seconds
+0717.166 (0) Table wp_wc_product_attributes_lookup: finishing file(s) (2, 0.4 KB)
+0717.194 (0) Table wp_wc_product_download_directories: Total expected rows (via COUNT): 2
+0717.197 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0717.210 (0) Table wp_wc_product_download_directories: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=947) in 0.03 seconds
+0717.232 (0) Table wp_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0717.265 (0) Table wp_wc_rate_limits: Total expected rows (via COUNT): 0
+0717.271 (0) Table wp_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=688) in 0.03 seconds
+0717.289 (0) Table wp_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0717.325 (0) Table wp_wc_webhooks: Total expected rows (via COUNT): 0
+0717.328 (0) Table wp_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1215) in 0.03 seconds
+0717.344 (0) Table wp_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0717.381 (0) Table wp_wfpklist_template_data: Total expected rows (via COUNT): 5
+0717.383 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0717.393 (0) Table wp_wfpklist_template_data: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=62397) in 0.04 seconds
+0717.415 (0) Table wp_wfpklist_template_data: finishing file(s) (2, 5.1 KB)
+0717.436 (0) Table wp_woo_shippment_provider: Total expected rows (via COUNT): 949
+0717.469 (0) Table wp_woo_shippment_provider: Rows added in this batch (next record: 949): 949 (uncompressed bytes in this segment=140342) in 0.04 seconds
+0717.484 (0) Table wp_woo_shippment_provider: finishing file(s) (2, 34.6 KB)
+0717.519 (0) Table wp_woocommerce_api_keys: Total expected rows (via COUNT): 0
+0717.522 (0) Table wp_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1038) in 0.03 seconds
+0717.540 (0) Table wp_woocommerce_api_keys: finishing file(s) (2, 0.5 KB)
+0717.572 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 0
+0717.576 (0) Table wp_woocommerce_attribute_taxonomies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=954) in 0.02 seconds
+0717.590 (0) Table wp_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.4 KB)
+0717.624 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0717.627 (0) Table wp_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1518) in 0.03 seconds
+0717.642 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0717.679 (0) Table wp_woocommerce_log: Total expected rows (via COUNT): 0
+0717.682 (0) Table wp_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=715) in 0.03 seconds
+0717.699 (0) Table wp_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0717.731 (0) Table wp_woocommerce_order_items: Total expected rows (via COUNT): 26
+0717.734 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0717.740 (0) Table wp_woocommerce_order_items: Rows added in this batch (next record: 34): 26 (uncompressed bytes in this segment=1948) in 0.03 seconds
+0717.766 (0) Table wp_woocommerce_order_items: finishing file(s) (2, 0.6 KB)
+0717.805 (0) Table wp_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0717.812 (0) Table wp_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=833) in 0.03 seconds
+0717.827 (0) Table wp_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0717.846 (0) Table wp_woocommerce_sessions: Total expected rows (via COUNT): 1
+0717.849 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0717.855 (0) Table wp_woocommerce_sessions: Rows added in this batch (next record: 71): 1 (uncompressed bytes in this segment=2355) in 0.02 seconds
+0717.870 (0) Table wp_woocommerce_sessions: finishing file(s) (2, 0.9 KB)
+0717.886 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 5
+0717.888 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0717.891 (0) Table wp_woocommerce_shipping_zone_locations: Rows added in this batch (next record: 8): 5 (uncompressed bytes in this segment=1068) in 0.01 seconds
+0717.905 (0) Table wp_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.5 KB)
+0717.919 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 4
+0717.921 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0717.924 (0) Table wp_woocommerce_shipping_zone_methods: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=972) in 0.01 seconds
+0717.938 (0) Table wp_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.5 KB)
+0717.951 (0) Table wp_woocommerce_shipping_zones: Total expected rows (via COUNT): 1
+0717.956 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0717.959 (0) Table wp_woocommerce_shipping_zones: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=713) in 0.01 seconds
+0717.979 (0) Table wp_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0717.992 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0717.997 (0) Table wp_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=840) in 0.01 seconds
+0718.009 (0) The time we have been running (718) is approaching the resumption interval (748) - increasing resumption interval to 749
+0718.020 (0) Table wp_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0718.036 (0) Table wp_woocommerce_tax_rates: Total expected rows (via COUNT): 1
+0718.038 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0718.045 (0) Table wp_woocommerce_tax_rates: Rows added in this batch (next record: 2): 1 (uncompressed bytes in this segment=1398) in 0.01 seconds
+0718.060 (0) Table wp_woocommerce_tax_rates: finishing file(s) (2, 0.5 KB)
+0718.096 (0) Table wp_wpforms_logs: Total expected rows (via COUNT): 0
+0718.102 (0) Table wp_wpforms_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=736) in 0.03 seconds
+0718.119 (0) Table wp_wpforms_logs: finishing file(s) (2, 0.4 KB)
+0718.153 (0) Table wp_wpforms_payment_meta: Total expected rows (via COUNT): 0
+0718.159 (0) Table wp_wpforms_payment_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=731) in 0.03 seconds
+0718.178 (0) Table wp_wpforms_payment_meta: finishing file(s) (2, 0.4 KB)
+0718.196 (0) Table wp_wpforms_payments: Total expected rows (via COUNT): 0
+0718.201 (0) Table wp_wpforms_payments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1958) in 0.01 seconds
+0718.219 (0) Table wp_wpforms_payments: finishing file(s) (2, 0.6 KB)
+0718.255 (0) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 5
+0718.258 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0718.265 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 6): 5 (uncompressed bytes in this segment=1036) in 0.04 seconds
+0718.300 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0718.304 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\Users\Dell Inspiron 5559\Local Sites\geargroove\app\public/wp-content/updraft/backup_2025-04-26-2324_GearGroove_831858b0d633-db.gz (line 1923, C:\Users\Dell Inspiron 5559\Local Sites\geargroove\app\public\wp-content\plugins\updraftplus\backup.php)
+0718.312 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_options.table.tmpr5008.gz (1/57/fopen): adding to final database dump
+0718.367 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_options.table.gz (2/57/fopen): adding to final database dump
+0718.370 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_users.table.tmpr3.gz (3/57/fopen): adding to final database dump
+0718.375 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_users.table.gz (4/57/fopen): adding to final database dump
+0718.378 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_usermeta.table.tmpr129.gz (5/57/fopen): adding to final database dump
+0718.382 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_usermeta.table.gz (6/57/fopen): adding to final database dump
+0718.384 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_actionscheduler_actions.table.tmpr457.gz (7/57/fopen): adding to final database dump
+0718.388 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_actionscheduler_actions.table.gz (8/57/fopen): adding to final database dump
+0718.391 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/57/fopen): adding to final database dump
+0718.394 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_actionscheduler_claims.table.gz (10/57/fopen): adding to final database dump
+0718.398 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_actionscheduler_groups.table.tmpr10.gz (11/57/fopen): adding to final database dump
+0718.401 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_actionscheduler_groups.table.gz (12/57/fopen): adding to final database dump
+0718.403 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_actionscheduler_logs.table.tmpr780.gz (13/57/fopen): adding to final database dump
+0718.407 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_actionscheduler_logs.table.gz (14/57/fopen): adding to final database dump
+0718.410 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_commentmeta.table.tmpr3.gz (15/57/fopen): adding to final database dump
+0718.413 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_commentmeta.table.gz (16/57/fopen): adding to final database dump
+0718.415 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_comments.table.tmpr11.gz (17/57/fopen): adding to final database dump
+0718.418 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_comments.table.gz (18/57/fopen): adding to final database dump
+0718.420 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_links.table.tmpr0.gz (19/57/fopen): adding to final database dump
+0718.424 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_links.table.gz (20/57/fopen): adding to final database dump
+0718.426 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_postmeta.table.tmpr7629.gz (21/57/fopen): adding to final database dump
+0718.506 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_postmeta.table.gz (22/57/fopen): adding to final database dump
+0718.509 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_posts.table.tmpr964.gz (23/57/fopen): adding to final database dump
+0718.523 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_posts.table.gz (24/57/fopen): adding to final database dump
+0718.526 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_term_relationships.table.tmpr100001.gz (25/57/fopen): adding to final database dump
+0718.529 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_term_relationships.table.gz (26/57/fopen): adding to final database dump
+0718.532 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_term_taxonomy.table.tmpr33.gz (27/57/fopen): adding to final database dump
+0718.535 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_term_taxonomy.table.gz (28/57/fopen): adding to final database dump
+0718.537 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_termmeta.table.tmpr13.gz (29/57/fopen): adding to final database dump
+0718.540 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_termmeta.table.gz (30/57/fopen): adding to final database dump
+0718.543 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_terms.table.tmpr33.gz (31/57/fopen): adding to final database dump
+0718.546 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_terms.table.gz (32/57/fopen): adding to final database dump
+0718.548 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_wc_category_lookup.table.tmpr1001.gz (33/57/fopen): adding to final database dump
+0718.551 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_wc_category_lookup.table.gz (34/57/fopen): adding to final database dump
+0718.554 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_wc_product_meta_lookup.table.tmpr275.gz (35/57/fopen): adding to final database dump
+0718.557 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_wc_product_meta_lookup.table.gz (36/57/fopen): adding to final database dump
+0718.560 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_wc_reserved_stock.table.tmpr1.gz (37/57/fopen): adding to final database dump
+0718.563 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_wc_reserved_stock.table.gz (38/57/fopen): adding to final database dump
+0718.566 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_wc_tax_rate_classes.table.tmpr3.gz (39/57/fopen): adding to final database dump
+0718.569 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_wc_tax_rate_classes.table.gz (40/57/fopen): adding to final database dump
+0718.572 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_woocommerce_order_itemmeta.table.tmpr297.gz (41/57/fopen): adding to final database dump
+0718.577 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_woocommerce_order_itemmeta.table.gz (42/57/fopen): adding to final database dump
+0718.579 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_woocommerce_payment_tokenmeta.table.tmpr0.gz (43/57/fopen): adding to final database dump
+0718.582 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_woocommerce_payment_tokenmeta.table.gz (44/57/fopen): adding to final database dump
+0718.584 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_e_events.table.tmpr3.gz (45/57/fopen): adding to final database dump
+0718.587 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_e_events.table.gz (46/57/fopen): adding to final database dump
+0718.590 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_wc_admin_note_actions.table.tmpr1926.gz (47/57/fopen): adding to final database dump
+0718.593 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_wc_admin_note_actions.table.gz (48/57/fopen): adding to final database dump
+0718.596 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_wc_admin_notes.table.tmpr70.gz (49/57/fopen): adding to final database dump
+0718.599 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_wc_admin_notes.table.gz (50/57/fopen): adding to final database dump
+0718.602 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_wc_customer_lookup.table.tmpr3.gz (51/57/fopen): adding to final database dump
+0718.605 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_wc_customer_lookup.table.gz (52/57/fopen): adding to final database dump
+0718.608 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_wc_download_log.table.tmpr0.gz (53/57/fopen): adding to final database dump
+0718.611 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_wc_download_log.table.gz (54/57/fopen): adding to final database dump
+0718.614 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_wc_order_addresses.table.tmpr5.gz (55/57/fopen): adding to final database dump
+0718.617 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_wc_order_addresses.table.gz (56/57/fopen): adding to final database dump
+0718.619 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_wc_order_coupon_lookup.table.tmpr1001.gz (57/57/fopen): adding to final database dump
+0718.622 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_wc_order_coupon_lookup.table.gz (58/57/fopen): adding to final database dump
+0718.625 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_wc_order_operational_data.table.tmpr10.gz (59/57/fopen): adding to final database dump
+0718.628 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_wc_order_operational_data.table.gz (60/57/fopen): adding to final database dump
+0718.631 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_wc_order_product_lookup.table.tmpr32.gz (61/57/fopen): adding to final database dump
+0718.634 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_wc_order_product_lookup.table.gz (62/57/fopen): adding to final database dump
+0718.636 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_wc_order_stats.table.tmpr429.gz (63/57/fopen): adding to final database dump
+0718.639 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_wc_order_stats.table.gz (64/57/fopen): adding to final database dump
+0718.641 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_wc_order_tax_lookup.table.tmpr1001.gz (65/57/fopen): adding to final database dump
+0718.644 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_wc_order_tax_lookup.table.gz (66/57/fopen): adding to final database dump
+0718.647 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_wc_orders.table.tmpr429.gz (67/57/fopen): adding to final database dump
+0718.649 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_wc_orders.table.gz (68/57/fopen): adding to final database dump
+0718.651 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_wc_orders_meta.table.tmpr37.gz (69/57/fopen): adding to final database dump
+0718.655 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_wc_orders_meta.table.gz (70/57/fopen): adding to final database dump
+0718.657 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_wc_product_attributes_lookup.table.tmpr1.gz (71/57/fopen): adding to final database dump
+0718.660 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_wc_product_attributes_lookup.table.gz (72/57/fopen): adding to final database dump
+0718.663 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_wc_product_download_directories.table.tmpr3.gz (73/57/fopen): adding to final database dump
+0718.665 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_wc_product_download_directories.table.gz (74/57/fopen): adding to final database dump
+0718.668 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_wc_rate_limits.table.tmpr0.gz (75/57/fopen): adding to final database dump
+0718.670 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_wc_rate_limits.table.gz (76/57/fopen): adding to final database dump
+0718.675 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_wc_webhooks.table.tmpr0.gz (77/57/fopen): adding to final database dump
+0718.678 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_wc_webhooks.table.gz (78/57/fopen): adding to final database dump
+0718.681 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_wfpklist_template_data.table.tmpr6.gz (79/57/fopen): adding to final database dump
+0718.685 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_wfpklist_template_data.table.gz (80/57/fopen): adding to final database dump
+0718.687 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_woo_shippment_provider.table.tmpr950.gz (81/57/fopen): adding to final database dump
+0718.694 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_woo_shippment_provider.table.gz (82/57/fopen): adding to final database dump
+0718.698 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_woocommerce_api_keys.table.tmpr0.gz (83/57/fopen): adding to final database dump
+0718.702 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_woocommerce_api_keys.table.gz (84/57/fopen): adding to final database dump
+0718.704 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_woocommerce_attribute_taxonomies.table.tmpr0.gz (85/57/fopen): adding to final database dump
+0718.707 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_woocommerce_attribute_taxonomies.table.gz (86/57/fopen): adding to final database dump
+0718.710 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_woocommerce_downloadable_product_permissions.table.tmpr0.gz (87/57/fopen): adding to final database dump
+0718.712 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (88/57/fopen): adding to final database dump
+0718.715 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_woocommerce_log.table.tmpr0.gz (89/57/fopen): adding to final database dump
+0718.718 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_woocommerce_log.table.gz (90/57/fopen): adding to final database dump
+0718.720 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_woocommerce_order_items.table.tmpr35.gz (91/57/fopen): adding to final database dump
+0718.723 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_woocommerce_order_items.table.gz (92/57/fopen): adding to final database dump
+0718.727 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_woocommerce_payment_tokens.table.tmpr0.gz (93/57/fopen): adding to final database dump
+0718.729 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_woocommerce_payment_tokens.table.gz (94/57/fopen): adding to final database dump
+0718.732 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_woocommerce_sessions.table.tmpr72.gz (95/57/fopen): adding to final database dump
+0718.735 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_woocommerce_sessions.table.gz (96/57/fopen): adding to final database dump
+0718.737 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_woocommerce_shipping_zone_locations.table.tmpr9.gz (97/57/fopen): adding to final database dump
+0718.742 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_woocommerce_shipping_zone_locations.table.gz (98/57/fopen): adding to final database dump
+0718.745 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_woocommerce_shipping_zone_methods.table.tmpr5.gz (99/57/fopen): adding to final database dump
+0718.752 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_woocommerce_shipping_zone_methods.table.gz (100/57/fopen): adding to final database dump
+0718.755 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_woocommerce_shipping_zones.table.tmpr2.gz (101/57/fopen): adding to final database dump
+0718.760 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_woocommerce_shipping_zones.table.gz (102/57/fopen): adding to final database dump
+0718.763 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_woocommerce_tax_rate_locations.table.tmpr0.gz (103/57/fopen): adding to final database dump
+0718.766 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_woocommerce_tax_rate_locations.table.gz (104/57/fopen): adding to final database dump
+0718.768 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_woocommerce_tax_rates.table.tmpr3.gz (105/57/fopen): adding to final database dump
+0718.772 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_woocommerce_tax_rates.table.gz (106/57/fopen): adding to final database dump
+0718.776 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_wpforms_logs.table.tmpr0.gz (107/57/fopen): adding to final database dump
+0718.779 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_wpforms_logs.table.gz (108/57/fopen): adding to final database dump
+0718.781 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_wpforms_payment_meta.table.tmpr0.gz (109/57/fopen): adding to final database dump
+0718.790 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_wpforms_payment_meta.table.gz (110/57/fopen): adding to final database dump
+0718.796 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_wpforms_payments.table.tmpr0.gz (111/57/fopen): adding to final database dump
+0718.799 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_wpforms_payments.table.gz (112/57/fopen): adding to final database dump
+0718.802 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_wpforms_tasks_meta.table.tmpr7.gz (113/57/fopen): adding to final database dump
+0718.805 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db-table-wp_wpforms_tasks_meta.table.gz (114/57/fopen): adding to final database dump
+0718.857 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db.gz: finished writing out complete database file (1583.4 KB)
+0718.945 (0) Total database tables backed up: 57 (backup_2025-04-26-2324_GearGroove_831858b0d633-db.gz, size: 1621559, sha1: 19880a463ae3e79965741e152cc39c651d219a60, sha256: 18f20682d5c1f065c8a8c9269a0308123cca8287da94772c089ace84e5d907ab)
+0718.961 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-plugins.zip: plugins: This file has already been successfully processed
+0718.964 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-themes.zip: themes: This file has already been successfully processed
+0718.966 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-uploads.zip: uploads: This file has already been successfully processed
+0718.969 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-others.zip: others: This file has already been successfully processed
+0718.971 (0) backup_2025-04-26-2324_GearGroove_831858b0d633-db.gz: db: This file has not yet been successfully uploaded: will queue
+0718.975 (0) Saving backup history. Total backup size: 130.8 MB
+0718.986 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0718.995 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0718.997 (0) No remote despatch: user chose no remote backup service
+0719.000 (0) Recording as successfully uploaded: backup_2025-04-26-2324_GearGroove_831858b0d633-db.gz
+0719.009 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0719.012 (0) Number of backup sets in history: 3; groups (db): 1
+0719.015 (0) Examining (for databases) backup set with group_id=0, nonce=831858b0d633, datestamp=1745690068 (Apr 26 2025 17:54:28)
+0719.017 (0) This backup set is the backup set just made, so will not be deleted.
+0719.017 (0) Examining (for databases) backup set with group_id=0, nonce=015ad5abaa59, datestamp=1745566020 (Apr 25 2025 07:27:00)
+0719.017 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0719.020 (0) Examining (for databases) backup set with group_id=0, nonce=c4e9baf2ac9d, datestamp=1745514786 (Apr 24 2025 17:13:06)
+0719.020 (0) 1745514786: db: this set includes a database (backup_2025-04-24-2243_GearGroove_c4e9baf2ac9d-db.gz); db count is now 2
+0719.020 (0) 1745514786: db: over retain limit (2); will delete this database
+0719.020 (0) Delete file: backup_2025-04-24-2243_GearGroove_c4e9baf2ac9d-db.gz, service=none
+0719.022 (0) Deleting local copy (backup_2025-04-24-2243_GearGroove_c4e9baf2ac9d-db.gz)
+0719.033 (0) The time we have been running (719) is approaching the resumption interval (749) - increasing resumption interval to 750
+0719.038 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0719.040 (0) Number of backup sets in history: 3; groups (files): 1
+0719.042 (0) Examining (for files) backup set with nonce=831858b0d633, datestamp=1745690068 (Apr 26 2025 17:54:28)
+0719.042 (0) This backup set is the backup set just made, so will not be deleted.
+0719.044 (0) This backup set is the backup set just made, so will not be deleted.
+0719.045 (0) This backup set is the backup set just made, so will not be deleted.
+0719.045 (0) This backup set is the backup set just made, so will not be deleted.
+0719.045 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0719.047 (0) Examining (for files) backup set with nonce=015ad5abaa59, datestamp=1745566020 (Apr 25 2025 07:27:00)
+0719.047 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0719.047 (0) Examining (for files) backup set with nonce=c4e9baf2ac9d, datestamp=1745514786 (Apr 24 2025 17:13:06)
+0719.047 (0) plugins: over retain limit (2); will delete this file entity
+0719.047 (0) themes: over retain limit (2); will delete this file entity
+0719.047 (0) uploads: over retain limit (2); will delete this file entity
+0719.047 (0) others: over retain limit (2); will delete this file entity
+0719.047 (0) Delete file: backup_2025-04-24-2243_GearGroove_c4e9baf2ac9d-plugins.zip, service=none
+0719.049 (0) Deleting local copy (backup_2025-04-24-2243_GearGroove_c4e9baf2ac9d-plugins.zip)
+0719.053 (0) Delete file: backup_2025-04-24-2243_GearGroove_c4e9baf2ac9d-themes.zip, service=none
+0719.055 (0) Deleting local copy (backup_2025-04-24-2243_GearGroove_c4e9baf2ac9d-themes.zip)
+0719.058 (0) Delete file: backup_2025-04-24-2243_GearGroove_c4e9baf2ac9d-uploads.zip, service=none
+0719.060 (0) Deleting local copy (backup_2025-04-24-2243_GearGroove_c4e9baf2ac9d-uploads.zip)
+0719.063 (0) Delete file: backup_2025-04-24-2243_GearGroove_c4e9baf2ac9d-others.zip, service=none
+0719.064 (0) Deleting local copy (backup_2025-04-24-2243_GearGroove_c4e9baf2ac9d-others.zip)
+0719.070 (0) This backup set is now empty; will remove from history
+0719.072 (0) Deleting log file (log.c4e9baf2ac9d.txt)
+0719.076 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0719.084 (0) Resume backup (831858b0d633, 0): finish run
+0719.091 (0) Decremented the semaphore (fd) by 1
+0719.094 (0) Semaphore (fd) unlocked
+0719.096 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0719.106 (0) No email will/can be sent - the user has not configured an email address.
+0719.108 (0) The backup succeeded and is now complete

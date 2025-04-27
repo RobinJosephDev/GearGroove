@@ -1,0 +1,48 @@
+# Ignore the WordPress core files (unless you're working on WP core itself)
+wp-admin/
+wp-includes/
+wp-content/plugins/
+wp-content/themes/
+
+# Ignore WordPress temporary files and backups
+wp-content/uploads/
+
+# Ignore WordPress database files
+*.sql
+*.sqlite
+
+# Ignore Composer files if you're using it
+/vendor/
+
+# Ignore the wp-config.php file (contains sensitive data like DB credentials)
+wp-config.php
+
+# Ignore the debug log (if enabled)
+wp-content/debug.log
+
+# Ignore local development and caching files
+*.log
+*.swp
+*.bak
+*.orig
+.DS_Store
+Thumbs.db
+
+# Ignore node_modules if you're using any front-end build tools (e.g., for theme development)
+node_modules/
+
+# Ignore the built assets (if you're compiling assets with tools like Webpack, Gulp, etc.)
+dist/
+build/
+
+# Ignore IDE specific files (e.g., VSCode, Sublime, etc.)
+.vscode/
+.idea/
+
+# Ignore other environment-specific files
+*.env
+*.local
+
+# Ignore test files (if any)
+*.test.js
+*.spec.js
