@@ -1,60 +1,70 @@
-GearGroove WordPress Website
-This is a custom WordPress-based website for GearGroove, inspired by the demo from Wilson Online Shop. While the design is mostly similar, this website has been developed and customized to fit specific requirements with some minor design modifications.
+# GearGroove WordPress Website
 
-The site has been developed locally using Local by Flywheel for WordPress development and can be accessed at http://geargroove.local/ on your local machine.
+This is a custom WordPress-based website for **GearGroove**, inspired by the demo from [Wilson Online Shop](https://wilsononlineshop.com/). While the design is mostly similar, this website has been developed and customized to fit specific requirements, with some minor design modifications.
 
-Features
-WooCommerce Integration: Full support for online shopping, product display, and checkout.
+The site has been developed locally using **Local by Flywheel** for WordPress development and can be accessed at `http://geargroove.local/` on your local machine.
 
-Responsive Design: The site is designed to work seamlessly across devices.
+---
 
-Customizations: Minor design changes and layout adjustments based on the original demo.
+## Features
 
-Local Development Setup: This site has been set up and is being hosted locally for testing and development purposes.
+- **WooCommerce Integration**: Full support for online shopping, product display, and checkout.
+- **Responsive Design**: The site is designed to work seamlessly across devices.
+- **Customizations**: Minor design changes and layout adjustments based on the original demo.
+- **Local Development Setup**: This site has been set up and is being hosted locally for testing and development purposes.
 
-Setup Instructions
-If you'd like to run this website locally, follow these steps:
+---
 
-Prerequisites
-Local by Flywheel or another local WordPress environment.
+## Setup Instructions
 
-WordPress installed and running.
+To run this website locally, follow the steps below:
 
-Clone the Project
-Download or clone the project to your local machine.
+### Prerequisites
 
-Import the Site
-Open Local by Flywheel or your local WordPress setup.
+- **Local by Flywheel** or another local WordPress environment.
+- WordPress installed and running.
 
-Add the downloaded project directory to the environment.
+### Clone the Project
 
-Navigate to the local URL: http://geargroove.local/.
+1. Download or clone the project to your local machine.
 
-Customize as Needed
-Update the site content, including text, images, and WooCommerce products.
+### Import the Site
 
-Adjust the theme's design or use custom CSS for further design changes.
+1. Open **Local by Flywheel** or your local WordPress setup.
+2. Add the downloaded project directory to the environment.
+3. Navigate to the local URL: `http://geargroove.local/`.
 
-Usage
-Admin Panel: You can access the admin panel by navigating to http://geargroove.local/wp-admin/ and logging in with your admin credentials.
+### Customize as Needed
 
-Front-End: Browse the website at http://geargroove.local/ to see the demo and functionality.
+- Update the site content, including text, images, and WooCommerce products.
+- Adjust the theme's design or use custom CSS for further design changes.
 
-Technologies Used
-WordPress: Content management system (CMS).
+---
 
-WooCommerce: E-commerce plugin for WordPress.
+## Usage
 
-Custom Theme: A custom theme designed based on the Wilson Online Shop demo.
+- **Admin Panel**: You can access the admin panel by navigating to `http://geargroove.local/wp-admin/` and logging in with your admin credentials.
+- **Front-End**: Browse the website at `http://geargroove.local/` to see the demo and functionality.
 
-PHP: Server-side scripting language.
+---
 
-MySQL: Database system for WordPress.
+## Technologies Used
 
-CSS/HTML: Styling and structure of the website.
+- **WordPress**: Content management system (CMS).
+- **WooCommerce**: E-commerce plugin for WordPress.
+- **Custom Theme**: A custom theme designed based on the Wilson Online Shop demo.
+- **PHP**: Server-side scripting language.
+- **MySQL**: Database system for WordPress.
+- **CSS/HTML**: Styling and structure of the website.
 
-Acknowledgments
-This project is inspired by the Wilson Online Shop demo but is a custom build with modifications to suit specific needs. Special thanks to the original creators for their design inspiration.
+---
 
-License
-This project is for personal and local development use only. It is not to be redistributed or sold as it is based on another website's design.
+## Acknowledgments
+
+This project is inspired by the [Wilson Online Shop demo](https://wilsononlineshop.com/) but is a custom build with modifications to suit specific needs. Special thanks to the original creators for their design inspiration.
+
+---
+
+## License
+
+This project is for personal and local development use only. It is **not to be redistributed or sold** as it is based on another website's design.
